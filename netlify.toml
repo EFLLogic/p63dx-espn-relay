@@ -1,0 +1,9 @@
+# Netlify settings for the P63DX ESPN relay.
+# Netlify reads this from the repository root.
+[build]
+  publish = "public"
+  command = ""
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
